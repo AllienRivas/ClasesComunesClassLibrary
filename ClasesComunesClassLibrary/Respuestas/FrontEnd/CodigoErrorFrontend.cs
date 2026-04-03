@@ -2,7 +2,7 @@ namespace ClasesComunesClassLibrary.Respuestas;
 
 public enum CodigoErrorFrontend
 {
-    Ninguno = 0,
+       Ninguno = 0,
 
         // --- 100-199: ACCESO Y SEGURIDAD (Críticos - Bloqueantes) ---
         CredencialesInvalidas = 100,   // no se proporcionaron credenciales validas
