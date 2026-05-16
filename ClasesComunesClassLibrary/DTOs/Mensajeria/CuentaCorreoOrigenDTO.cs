@@ -13,5 +13,7 @@ namespace ClasesComunesClassLibrary.DTOs.Mensajeria
         public string smtpHost { get; set; }
         public int puerto { get; set; }
         public bool SSL { get; set; }
+
+        public string Displayname { get; set; }
     }
 }
