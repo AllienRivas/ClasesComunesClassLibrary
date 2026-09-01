@@ -70,8 +70,7 @@ namespace ClasesComunesClassLibrary.Mensajeria.ImplementacionGmail
             catch (Exception e)
             {
 
-                return RespuestaSimple.Error("Hubo un error al enviar el correo" + e.Message);
-
+                return RespuestaSimple.Error($"Hubo un error al enviar el correo {e}");
             }
         }
 

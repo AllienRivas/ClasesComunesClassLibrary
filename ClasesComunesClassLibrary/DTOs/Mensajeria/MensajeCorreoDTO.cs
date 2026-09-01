@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using ClasesComunesClassLibrary.Mesajeria.Interfaces;
 
 namespace ClasesComunesClassLibrary.DTOs.Mensajeria
 {
@@ -33,7 +34,7 @@ namespace ClasesComunesClassLibrary.DTOs.Mensajeria
         public List<string> ListaArchivosAdjuntos { get; set; }
 
 
-        public CuentaCorreoOrigenDTO cuentaOrigen { get; set; }
+        public ICuentaCorreoOrigen cuentaOrigen { get; set; }
 
     }
 }
