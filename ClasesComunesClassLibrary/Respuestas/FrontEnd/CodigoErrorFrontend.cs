@@ -12,6 +12,7 @@ public enum CodigoErrorFrontend
         UsuarioBloqueado = 104,        // Por reintentos fallidos
         DobleFactorRequerido = 105,    // Necesita validación extra (OTP/SMS)
         IpNoAutorizada = 106,          // Restricción por ubicación física
+        UsuarioNoRegistrado = 107,     // Login con Google: el correo no tiene cuenta, mandar a registro
 
         // --- 200-299: VALIDACIÓN DE DATOS (Leves - Con Timer) ---
         DatosInvalidos = 200,          // Errores de formato (Regex, nulos)
